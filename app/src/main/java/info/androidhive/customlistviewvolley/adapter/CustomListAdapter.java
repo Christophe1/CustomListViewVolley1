@@ -56,10 +56,11 @@ public class CustomListAdapter extends BaseAdapter {
 			imageLoader = AppController.getInstance().getImageLoader();
 		NetworkImageView thumbNail = (NetworkImageView) convertView
 				.findViewById(R.id.thumbnail);
-		TextView title = (TextView) convertView.findViewById(R.id.title);
-		TextView rating = (TextView) convertView.findViewById(R.id.rating);
-		TextView genre = (TextView) convertView.findViewById(R.id.genre);
-		TextView year = (TextView) convertView.findViewById(R.id.releaseYear);
+		TextView category = (TextView) convertView.findViewById(R.id.category);
+		TextView name = (TextView) convertView.findViewById(R.id.name);
+		TextView phone = (TextView) convertView.findViewById(R.id.phone);
+		//TextView genre = (TextView) convertView.findViewById(R.id.genre);
+		TextView comment = (TextView) convertView.findViewById(R.id.comment);
 
 		// getting movie data for the row
 		Movie m = movieItems.get(position);
@@ -67,12 +68,17 @@ public class CustomListAdapter extends BaseAdapter {
 		// thumbnail image
 //		thumbNail.setImageUrl(m.getThumbnailUrl(), imageLoader);
 		
-		// title
-		title.setText(m.getTitle());
+		// category
+		category.setText(m.getCategory());
+
+		// name
+		name.setText(m.getName());
 		
-		// rating
-		rating.setText("Rating: " + String.valueOf(m.getRating()));
-		
+		// phone
+		phone.setText("Phone: " + m.getPhone());
+
+		// comment
+		comment.setText("Bill says: " + m.getComment());
 		// genre
 /*		String genreStr = "";
 		for (String str : m.getGenre()) {
@@ -83,7 +89,7 @@ public class CustomListAdapter extends BaseAdapter {
 		genre.setText(genreStr);*/
 		
 		// release year
-		year.setText(String.valueOf(m.getYear()));
+		//comment.setText(String.valueOf(m.getYear()));
 
 		return convertView;
 	}

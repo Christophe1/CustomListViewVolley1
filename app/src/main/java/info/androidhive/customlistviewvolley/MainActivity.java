@@ -68,11 +68,14 @@ public class MainActivity extends Activity {
 
 								JSONObject obj = response.getJSONObject(i);
 								Movie movie = new Movie();
-								movie.setTitle(obj.getString("title"));
+								movie.setCategory(obj.getString("category"));
 								//movie.setThumbnailUrl(obj.getString("image"));
 								//movie.setRating(((Number) obj.get("rating"))
 								//		.doubleValue());
-								movie.setYear(obj.getInt("releaseYear"));
+								movie.setName(obj.getString("name"));
+								movie.setPhone(obj.getString("phone"));
+								movie.setComment(obj.getString("comment"));
+
 // taking out genre
 								// Genre is json array
 								//JSONArray genreArry = obj.getJSONArray("genre");

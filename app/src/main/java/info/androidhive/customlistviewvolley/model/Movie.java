@@ -3,7 +3,7 @@ package info.androidhive.customlistviewvolley.model;
 import java.util.ArrayList;
 
 public class Movie {
-	private String title, thumbnailUrl;
+	private String category, thumbnailUrl, name, phone, comment;
 	private int year;
 	private double rating;
 	private ArrayList<String> genre;
@@ -11,21 +11,25 @@ public class Movie {
 	public Movie() {
 	}
 
-	public Movie(String name, String thumbnailUrl, int year, double rating,
+	public Movie(String category, String thumbnailUrl,String name,String phone,
+				 String comment, int year, double rating,
 			ArrayList<String> genre) {
-		this.title = name;
+		this.category = category;
 		this.thumbnailUrl = thumbnailUrl;
+		this.name = name;
+		this.phone = phone;
+		this.comment = comment;
 		this.year = year;
 		this.rating = rating;
 		this.genre = genre;
 	}
 
-	public String getTitle() {
-		return title;
+	public String getCategory() {
+		return category;
 	}
 
-	public void setTitle(String name) {
-		this.title = name;
+	public void setCategory(String category) {
+		this.category = category;
 	}
 
 	public String getThumbnailUrl() {
@@ -36,20 +40,34 @@ public class Movie {
 		this.thumbnailUrl = thumbnailUrl;
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public int getYear() {
 		return year;
 	}
 
-	public void setYear(int year) {
-		this.year = year;
+	public void setYear(int year) {this.year = year;}
+
+	public String getPhone() {
+		return phone;
 	}
 
-	public double getRating() {
-		return rating;
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 
-	public void setRating(double rating) {
-		this.rating = rating;
+	public String getComment() {
+		return comment;
+	}
+
+	public void setComment(String comment) {
+		this.comment = comment;
 	}
 
 	public ArrayList<String> getGenre() {
