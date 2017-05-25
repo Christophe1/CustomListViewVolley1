@@ -1,9 +1,5 @@
 package info.androidhive.customlistviewvolley;
 
-import info.androidhive.customlistviewvolley.adapter.CustomListAdapter;
-import info.androidhive.customlistviewvolley.app.AppController;
-import info.androidhive.customlistviewvolley.model.Movie;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +28,7 @@ public class MainActivity extends Activity {
 	// Movies json url
 	private static final String url = "http://www.populisto.com/SelectUserReviews.php";
 	private ProgressDialog pDialog;
-	private List<Movie> movieList = new ArrayList<Movie>();
+	private List<Review> reviewList = new ArrayList<Review>();
 	private ListView listView;
 	private CustomListAdapter adapter;
 
@@ -42,7 +38,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		listView = (ListView) findViewById(R.id.list);
-		adapter = new CustomListAdapter(this, movieList);
+		adapter = new CustomListAdapter(this, reviewList);
 		listView.setAdapter(adapter);
 
 		pDialog = new ProgressDialog(this);
@@ -67,14 +63,14 @@ public class MainActivity extends Activity {
 							try {
 
 								JSONObject obj = response.getJSONObject(i);
-								Movie movie = new Movie();
-								movie.setCategory(obj.getString("category"));
-								//movie.setThumbnailUrl(obj.getString("image"));
-								//movie.setRating(((Number) obj.get("rating"))
+								Review review = new Review();
+								review.setCategory(obj.getString("category"));
+								//review.setThumbnailUrl(obj.getString("image"));
+								//review.setRating(((Number) obj.get("rating"))
 								//		.doubleValue());
-								movie.setName(obj.getString("name"));
-								movie.setPhone(obj.getString("phone"));
-								movie.setComment(obj.getString("comment"));
+								review.setName(obj.getString("name"));
+								review.setPhone(obj.getString("phone"));
+								review.setComment(obj.getString("comment"));
 
 // taking out genre
 								// Genre is json array
@@ -83,10 +79,10 @@ public class MainActivity extends Activity {
 								//for (int j = 0; j < genreArry.length(); j++) {
 								//	genre.add((String) genreArry.get(j));
 								//}
-								//movie.setGenre(genre);
+								//review.setGenre(genre);
 
-								// adding movie to movies array
-								movieList.add(movie);
+								// adding review to movies array
+								reviewList.add(review);
 
 							} catch (JSONException e) {
 								e.printStackTrace();

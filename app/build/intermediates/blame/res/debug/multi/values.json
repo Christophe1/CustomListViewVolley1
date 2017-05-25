@@ -11,7 +11,14 @@
                     "endOffset": 90
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 39,
+                        "endOffset": 94
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 137
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 46,
+                        "endOffset": 182
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 190
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 244,
+                        "endColumn": 52,
+                        "endOffset": 292
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 249
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 360,
+                        "endColumn": 58,
+                        "endOffset": 414
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 310
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 60,
+                        "endOffset": 354
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 365
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 188,
+                        "endColumn": 54,
+                        "endOffset": 238
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 404
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 38,
+                        "endOffset": 134
+                    }
                 }
             },
             {
@@ -114,7 +163,14 @@
                     "endOffset": 482
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 37,
+                        "endOffset": 138
+                    }
                 }
             },
             {
@@ -145,7 +201,14 @@
                     "endOffset": 555
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 144,
+                        "endColumn": 36,
+                        "endOffset": 176
+                    }
                 }
             },
             {
@@ -157,7 +220,14 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 52,
+                        "endOffset": 165
+                    }
                 }
             },
             {
@@ -165,49 +235,79 @@
                     "startLine": 14,
                     "startColumn": 4,
                     "startOffset": 613,
-                    "endColumn": 64,
-                    "endOffset": 673
+                    "endColumn": 57,
+                    "endOffset": 666
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 57,
+                        "endOffset": 111
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 678,
+                    "startOffset": 671,
                     "endColumn": 52,
-                    "endOffset": 726
+                    "endOffset": 719
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 52,
+                        "endOffset": 219
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 731,
-                    "endLine": 18,
+                    "startOffset": 724,
+                    "endLine": 22,
                     "endColumn": 12,
-                    "endOffset": 809
+                    "endOffset": 1010
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
                 }
             },
             {
                 "to": {
-                    "startLine": 19,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 814,
-                    "endLine": 21,
+                    "startOffset": 1015,
+                    "endLine": 25,
                     "endColumn": 12,
-                    "endOffset": 881
+                    "endOffset": 1170
                 },
                 "from": {
-                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "C:\\Users\\Chris\\Desktop\\Android Projects\\CustomListViewVolley1\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
                 }
             }
         ]
